@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hellocsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49994c79858a6d776f7acc7d03a2a29df36a69ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("hellocsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hellocsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
