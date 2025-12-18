@@ -29,5 +29,19 @@ int main() {
     numbers.pop_back();    // Remove last: [10, 20]
     numbers.clear();       // Remove all: []
 
+
+    // C array - fixe size
+    int c_array[5] = {1, 2, 3, 4, 5};
+    // c_array[10] = 100; // Undefined behavior! No bounds checking
+    // Can't grow or shrink
+    // Need to pass size separately to functions
+
+    // C++ vector - dynamic size
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    vec.push_back(6); // Can grow dynamically
+    vec.pop_back();  // Can shrink dynamically
+    vec.size();    // Size is known
+    // vec[10] = 100; // Throws an exception (out_of_range)
+
     return 0;
 }
