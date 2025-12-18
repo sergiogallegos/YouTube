@@ -16,4 +16,16 @@ int main() {
     }
     std::cout << std::endl;
 
+    // Method 3: Range with reference
+    for (int& num : numbers) {
+        num *= 2; // Double each element
+    }
+
+    // Method 4: Iterators (more advanced)
+    for (auto it = numbers.begin(); it != numbers.end(); ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
 }
